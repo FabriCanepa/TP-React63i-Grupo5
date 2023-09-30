@@ -1,8 +1,19 @@
 body {
   background-color: rgb(126, 75, 73);
   color: white;
+  min-height: 100vh;
+}
+
+.w-50 {
+  width: 50%!important;
+}
+
+.employee-avatar {
+  width: 75px;
+  height: 75px;
+}
+
+.ejer4Div {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
