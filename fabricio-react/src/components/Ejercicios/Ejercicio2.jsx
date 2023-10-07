@@ -2,7 +2,9 @@ const Ejercicio2 = (props) => {
     const { myFriend } = props;
 
     return (
-     <h1>Hello {myFriend}!</h1>
+     <div className="container d-flex justify-content-center">
+        <h1>Hello {myFriend}!</h1>
+      </div>
     )
   }
 

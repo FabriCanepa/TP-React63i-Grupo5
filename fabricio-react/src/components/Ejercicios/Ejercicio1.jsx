@@ -2,7 +2,9 @@ const Ejercicio1 = () => {
 
     
     return (
-    <h1>Hello World!</h1>
+      <div className="container d-flex justify-content-center">
+        <h1>Hello World!</h1>
+      </div>
     )
   }
   export default Ejercicio1
